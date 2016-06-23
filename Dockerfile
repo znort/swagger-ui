@@ -5,6 +5,7 @@ MAINTAINER Roman Tarnavski
 RUN apk add --update nginx
 
 COPY nginx.conf /etc/nginx/
+COPY .htpasswd /etc/nginx/
 ADD ./dist/ /usr/share/nginx/html
 
 EXPOSE 8080
