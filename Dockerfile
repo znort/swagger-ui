@@ -1,6 +1,6 @@
 FROM alpine:3.3
 
-MAINTAINER Roman Tarnavski
+MAINTAINER Christo
 
 RUN apk add --update nginx
 
